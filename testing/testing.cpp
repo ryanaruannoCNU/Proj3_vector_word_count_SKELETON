@@ -40,6 +40,7 @@ bool EXPECT_EQ(T expectedVal, U actualVal,string testnumb = "", int pts=ONE_POIN
 	}
 	else{
 		cout<<"FAIL expected="<<expectedVal<<", actual="<<actualVal<<", Test="<<testnumb;
+//		cout<<"FAIL expected="<<expectedVal<<", actual="<<actualVal<<", Test="<<testnumb;
 	}
 	cout<<endl;
 	return bout;

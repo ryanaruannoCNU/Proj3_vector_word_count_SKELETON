@@ -15,7 +15,9 @@
 
 #include "../includes/constants.h"
 /*if you are debugging the file must be in the project parent directory
-  in this case Project2 with the .project and .cProject files*/
+  in this case Project2 with the .project and .cProject files*
+  returns True - file opened successfully
+          False - file not opened*/
 bool openFile(std::fstream& myfile, const std::string& myFileName,
 		std::ios_base::openmode mode = std::ios_base::in);
 
